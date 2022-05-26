@@ -1,0 +1,41 @@
+
+/*-------------------------product_item-------------------*/
+@import url("../ultis/productitem/Productitem.css");
+
+.delete-all{
+    text-align: right;
+    margin: 20px;
+}
+
+
+/*-------------------------Fliter-------------------*/
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.filter_menu select, input{
+    border: 1px solid #ccc;
+    outline:none;
+    height: 40px;
+    padding: 0 5px;
+}
+.filter_menu input{
+    flex: 1;
+    margin: 0 10px;
+}
+/*-------------------------Load_more-------------------*/
+.load_more{
+    text-align: center;
+}
+.load_more button{
+    padding: 10px 15px;
+    border: 1px solid #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

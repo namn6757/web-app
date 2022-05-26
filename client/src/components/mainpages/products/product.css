@@ -1,0 +1,65 @@
+.products{
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center; */
+    margin: 20px 0;
+    padding: 20px
+}
+/*-------------------------product_item-------------------*/
+@import url("../ultis/productitem/Productitem.css");
+
+.delete-all{
+    text-align: right;
+    margin: 20px;
+}
+.delete-all input{
+height: 25px;
+width: 25px;
+transform: translateY(5px);
+margin: 0 15px;
+}
+.delete-all span{
+color: rgb(31, 164, 164);
+text-transform: uppercase;
+letter-spacing: 1.3px;
+}
+.delete-all button{
+    border: 1px solid crimson;
+    color: crimson;
+    background-color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+/*-------------------------Fliter-------------------*/
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.filter_menu select, input{
+    border: 1px solid #ccc;
+    outline:none;
+    height: 40px;
+    padding: 0 5px;
+}
+.filter_menu input{
+    flex: 1;
+    margin: 0 10px;
+}
+/*-------------------------Load_more-------------------*/
+.load_more{
+    text-align: center;
+}
+.load_more button{
+    padding: 10px 15px;
+    border: 1px solid #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
